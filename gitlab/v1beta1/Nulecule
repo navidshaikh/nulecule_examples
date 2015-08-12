@@ -7,12 +7,18 @@ metadata:
   appversion: 1.1.2
   description: Gitlab.
 graph:
-  - name: gitlab
+  - name: redis
+    artifacts:
+      kubernetes:
+        - file://artifacts/kubernetes/redis-pod.json
+        - file://artifacts/kubernetes/redis-service.json
+  - name: postgresql
     artifacts:
       kubernetes:
         - file://artifacts/kubernetes/postgres-pod.json
         - file://artifacts/kubernetes/postgres-service.json
-        - file://artifacts/kubernetes/redis-pod.json
-        - file://artifacts/kubernetes/redis-service.json
+  - name: gitlab
+    artifacts:
+      kubernetes:
         - file://artifacts/kubernetes/gitlab-pod.json
         - file://artifacts/kubernetes/gitlab-http-service.json
