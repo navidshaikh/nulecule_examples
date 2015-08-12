@@ -1,0 +1,12 @@
+{
+  "id": "gitlab",
+  "kind": "Service",
+  "apiVersion": "v1beta1",
+  "port": 1080,
+  "containerPort": 80,
+  "publicIP": ["0.0.0.0"],
+  "selector": {
+    "name": "gitlab"
+  }
+}
+
