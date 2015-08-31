@@ -39,7 +39,7 @@
                         ],
                         "ports": [
                             {
-                                "name": "gitlab-http"
+                                "name": "gitlab-http",
                                 "containerPort": 80
                             },
                             {
