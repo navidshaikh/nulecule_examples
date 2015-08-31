@@ -25,7 +25,7 @@
                         "image": "swordphilic/postgresql:latest",
                         "ports": [
                             {
-                                "name": "postgresql-pod-port",
+                                "name": "postgresql-port",
                                 "containerPort": 5432
                             }
                         ],

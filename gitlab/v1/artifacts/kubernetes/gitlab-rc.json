@@ -39,15 +39,15 @@
                         ],
                         "ports": [
                             {
-                                "name": "gitlab-http-port",
+                                "name": "gitlab-http"
                                 "containerPort": 80
                             },
                             {
-                                "name": "gitlab-https-port",
+                                "name": "gitlab-https",
                                 "containerPort": 443
                             },
                             {
-                                "name": "gitlab-ssh-port",
+                                "name": "gitlab-ssh",
                                 "containerPort": 22
                             }
                         ]
