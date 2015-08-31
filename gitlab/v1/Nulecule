@@ -4,7 +4,7 @@ id: gitlab-atomicapp
 
 metadata:
   name: Gitlab App
-  appversion: 1.1.2
+  appversion: 1.2.0
   description: Gitlab.
 graph:
   - name: redis
