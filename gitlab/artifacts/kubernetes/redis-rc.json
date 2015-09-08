@@ -22,7 +22,7 @@
                 "containers": [
                     {
                         "name": "redis",
-                        "image": "swordphilic/redis:latest",
+                        "image": "$image",
                         "ports": [
                             {
                                 "name": "redis-port",
